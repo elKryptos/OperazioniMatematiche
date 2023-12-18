@@ -15,6 +15,11 @@ public class OperazioniMatematiche {
          int somma = num1 + num2;
 
          System.out.println("Il risultato della somma è: " + somma);
+         System.out.println("Il risultato della sottrazione è: " + sottrazione(num1, num2));
          scanner.close();
     }
+       public static int sottrazione(int num1, int num2){
+        return num1 - num2;
+       }
+
 }
