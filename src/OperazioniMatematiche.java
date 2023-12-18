@@ -18,15 +18,19 @@ public class OperazioniMatematiche {
          System.out.println("Il risultato della sottrazione è: " + sottrazione(num1, num2));
          System.out.println("Il risultato della prodotto è: " + prodotto(num1, num2));
          System.out.println("Il risultato della divisione è: " + divisione(num1, num2));
+         System.out.println("Il risultato del modulo è: " + modulo(num1, num2));
          scanner.close();
-    }
+     }
        public static int sottrazione(int num1, int num2){
-        return num1 - num2;
+       return num1 - num2;
        }
        public static int prodotto (int num1, int num2){
         return num1 * num2;
-    }
+       }
        public static int divisione (int num1, int num2){
         return num1 / num2;
+       }
+       public static int modulo (int num1, int num2){
+        return num1 % num2;
        }
 }
